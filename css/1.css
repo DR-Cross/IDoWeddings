@@ -1,0 +1,203 @@
+.navigation {
+    z-index: 2;
+}
+
+.navigation ul {
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 10px;
+    list-style-type: none;
+    font-family: Sacramento, cursive;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: #1E90FF;
+    position: fixed;
+    top: 0;
+    width: auto;
+
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*
+li a:hover:not(.active) {
+    background-color: yellow;
+}
+*/
+
+.active {
+/*    background-color: #FF084A;*/
+    background-color: deeppink;
+}
+
+
+
+.parallaxImage {
+    margin-top: 100px;
+    height: 700px;
+}
+
+/*
+.parallaxPaper {
+    height: 400px;
+    background-image: url(../images/5.jpeg);
+}
+*/
+
+
+body{
+    padding: 20px;
+    color: #5a5a5a;
+    background: url("../images/dots.jpeg");
+/*    background: #8B171A;*/
+}
+
+.titleText {
+    padding: 100px;
+    margin-top; 100px;  
+}
+
+.navBrand {
+    padding: 20px;
+    margin-top: 500px;
+/*    font-weight: bold;*/
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    z-index: 2;
+    font-size: 75px;
+    font-family: Sacramento, cursive;
+    height: 30px;
+    text-align: center;
+    color: white;
+    display: block;
+    background-color: #1E90FF;
+}
+
+.navBrand span {
+/*    font-family: Sacramento, cursive;*/
+/*    font-weight: normal;*/
+/*    font-size: 90px;*/
+/*    font-weight: normal;*/
+
+}
+
+
+article {
+    color: #FF084A;
+}
+
+h1 {
+/*    background-color: rgba(255,0,0,0.5);*/
+/*    background-color:#1E90FF;*/
+    border-radius: 10px;
+    border-color: white;
+    font-family: pacifico;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+/*    font-weight: bold;*/
+}
+
+h3 {
+    color: white;
+    font-size: 50px;
+    font-family: Pacifico;
+    text-align: left;
+}
+
+h2 {
+    background-color:rgba(0,0,0,0.5);
+    color: white;
+    font-size: 40px;
+    font-family: Pacifico;
+    text-align: center;
+/*    vertical-align: middle;*/
+    display: inline-block;
+    margin-top: 200px;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+h2 span {
+    font-family: Sacramento, cursive;
+    font-size: 100px;
+}
+
+.parallaxImage{
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+
+.aboutMeImage {
+    height: 500px;
+}
+
+
+/*
+.container{
+    z-index: 1;
+}
+*/
+
+/*
+.col {
+    margin: 10px;
+    color: black;
+    background-color: white;
+}
+*/
+
+/*
+img {
+    image-orientation: from-image;
+}*/
+
+.aboutMeText {
+/*    background-color:rgba(166,0,0,.7);*/
+    margin-top: 40px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    background-color: deeppink;
+    opacity: .95;
+    font-family: 'Bree Serif', Serif;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+
+.servicesList {
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+
+
+.image {
+        margin-top: 40px;
+        max-width: 100%;
+    }
